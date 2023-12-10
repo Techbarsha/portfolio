@@ -1,10 +1,4 @@
-/**
-* Template Name: iPortfolio
-* Updated: Sep 18 2023 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 
 /*--------------------------------------------------------------
 # General
@@ -348,9 +342,12 @@ body {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
-  background-size: cover;
+  background: url("../img/hero-bg.jpg") right no-repeat;
+  background-color:#f6a329;
+  background-size: cover-cover-c;
 }
+
+
 
 #hero:before {
   content: "";
@@ -375,7 +372,12 @@ body {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #cf0031;
+  color: #f7f7f7;
+  -webkit-text-stroke: 1px black; 
+  text-stroke: 1px black;
+}
+
+  
   
 }
 
@@ -390,13 +392,14 @@ body {
 
 
 #hero p span {
-  color:#282828;
+  color: #282828;
   padding-bottom: 4px;
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
-  background: linear-gradient(90deg ,#f5634b 0%,#fe9418 100%);
-	transition: 1s;
+  background: linear-gradient(90deg, #9effa1 0%, #2cffe4 100%);
+  transition: 1s;
 }
+
 
 @media (min-width: 1024px) {
   #hero {
